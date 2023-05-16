@@ -1,0 +1,34 @@
+body {
+    background-color: #FFFEFD;
+    foreground-color: #0C0D0D;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.comparison_1 {
+    border: 2px solid black;
+    border-collapse: separate;
+}
+
+.comparison_1 td, .comparison_1 th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.first ul {
+    display: flex;
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.first ul li:not(:last-child) {
+    border-right: 1px solid #000000;
+    margin-right: 50px;
+    padding-bottom: 10px;
+}
