@@ -1,6 +1,9 @@
 body {
     background-color: #FFFEFD;
+    background-image: url(image/1.jpg);
+    color: #FFFFFF;
     foreground-color: #0C0D0D;
+    margin-left: 70px;
 }
 
 footer {
@@ -21,14 +24,22 @@ footer {
 }
 
 .first ul {
-    display: flex;
-    list-style: none;
-    margin-left: 0px;
-    padding-left: 0px;
+    padding: 0px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    text-align: center;
 }
 
-.first ul li:not(:last-child) {
-    border-right: 1px solid #000000;
-    margin-right: 50px;
-    padding-bottom: 10px;
+.first ul > li {
+    display: inline-block;
+}
+
+.first ul > li a {
+    color: #000000;
+    display: block;
+    padding: 08px 200px;
+}
+
+.first ul > li a:hover {
+    background-color: #787D7B
 }
